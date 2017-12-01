@@ -9,7 +9,7 @@ class Backer
 
   end
 
-  def back_project(rpoject)
+  def back_project(project)
     @name = self
     @backed_projects = Project.new
 
